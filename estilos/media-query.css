@@ -3,6 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px ) { 
     section#login {
         width: 80vw;
+        height: 360px;
     }
     section#login > div#imagem{
         float: left;
@@ -13,9 +14,11 @@
         float: right;
         width: 65%;
     }
-    div#formulario > p{
     
+    div#formulario > p{
+        font-size: 1em;
         font-weight: 500;
+        margin: 10px 0px 10px 24px;
     }
     form > input[type=submit]{
         width: 90%;
@@ -48,6 +51,7 @@
 @media screen and (min-width:992px) {
     section#login {
         width: 950px;
+        height: 430px;
     }
     section#login > div#imagem{
         float: right;
@@ -58,9 +62,12 @@
         float:  left;
         width: 50%;
     }
+    
     div#formulario > p{
         font-size: 1.2em;
         font-weight: 500;
+        margin: 10px 0px 10px 24px;
+
     }
     form > a.botao{
         width: 90%;
